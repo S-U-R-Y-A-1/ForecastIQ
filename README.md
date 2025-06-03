@@ -1,14 +1,6 @@
-Your README is already strong — well-structured, technically accurate, and visually clean. Here’s an enhanced version that:
-
-* Improves flow and polish
-* Clarifies the backend architecture (FastAPI vs Flask inconsistency)
-* Makes badge links and tech roles more precise
-* Uses consistent formatting
-* Emphasizes AI and observability benefits for evaluators
+Here is the **properly formatted and polished `README.md`** with all markdown elements rendered cleanly:
 
 ---
-
-### ✅ Improved README
 
 ````markdown
 # 🧠 Intelligent Resource Monitoring System
@@ -35,23 +27,24 @@ Your README is already strong — well-structured, technically accurate, and vis
 
 ## 🛠️ Tech Stack
 
-| Layer            | Technologies                             |
-|------------------|------------------------------------------|
-| **Frontend**     | Angular 17, Chart.js                     |
-| **Backend API**  | FastAPI (Python 3.9), Uvicorn            |
-| **Monitoring**   | Prometheus, Node Exporter, Alertmanager |
-| **Forecasting**  | Facebook Prophet, Pandas, Matplotlib     |
-| **Dashboarding** | Grafana                                  |
-| **Infrastructure** | Docker, (optional) Kubernetes HPA       |
+| Layer             | Technologies                              |
+|------------------|-------------------------------------------|
+| **Frontend**      | Angular 17, Chart.js                      |
+| **Backend API**   | FastAPI (Python 3.9), Uvicorn             |
+| **Monitoring**    | Prometheus, Node Exporter, Alertmanager  |
+| **Forecasting**   | Facebook Prophet, Pandas, Matplotlib      |
+| **Dashboarding**  | Grafana                                   |
+| **Infrastructure**| Docker, (optional) Kubernetes HPA         |
 
 ---
 
 ## 🚀 Getting Started
 
 ### 🔧 Prerequisites
+
 - Docker `20.10+`
 - Python `3.9+`
-- Node.js `18+` for Angular development
+- Node.js `18+` (for Angular development)
 
 ### 📦 Installation
 
@@ -66,10 +59,10 @@ docker-compose up --build -d
 
 ### 🖥️ Access Services
 
-* Angular Dashboard: [http://localhost:4200](http://localhost:4200)
-* Prometheus UI: [http://localhost:9090](http://localhost:9090)
-* Grafana: [http://localhost:3000](http://localhost:3000) (login: `admin` / `admin`)
-* API (FastAPI docs): [http://localhost:8000/docs](http://localhost:8000/docs)
+* **Angular Dashboard**: [http://localhost:4200](http://localhost:4200)
+* **Prometheus UI**: [http://localhost:9090](http://localhost:9090)
+* **Grafana**: [http://localhost:3000](http://localhost:3000) (Login: `admin` / `admin`)
+* **FastAPI Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
@@ -117,7 +110,7 @@ docker-compose up --build -d
 
 ## 📈 Sample Dashboard
 
-> *(Add real screenshots after demo)*
+> *(Replace this with real screenshots after demo)*
 
 ![Dashboard Screenshot](https://i.imgur.com/JQ8wH7A.png)
 
@@ -125,13 +118,13 @@ docker-compose up --build -d
 
 ## ⚠️ Alerting Rules
 
-Trigger alerts when:
+Triggers alerts when:
 
 * 🔥 CPU usage > 80% for 5 minutes
 * 🧠 Memory usage > 90%
 * 💾 Disk space < 10% free
 
-Alerts routed via **Prometheus Alertmanager**.
+Configured via **Prometheus Alertmanager**.
 
 ---
 
@@ -148,15 +141,15 @@ future = model.make_future_dataframe(periods=24, freq='H')
 forecast = model.predict(future)
 ```
 
-* Forecasts 24h into the future
-* Supports weekly & daily seasonality
-* Visualized via Angular charts
+* Forecasts 24 hours into the future
+* Supports weekly and daily seasonality
+* Results are visualized via Angular charts
 
 ---
 
 ## 📜 License
 
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more.
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for full details.
 
 ---
 
@@ -171,36 +164,27 @@ Integrated MSc AIML @ Coimbatore Institute of Technology
 
 * Integrate anomaly detection (e.g., Isolation Forest)
 * Add multi-node Kubernetes cluster support
-* Use LSTM for long-term prediction comparison
+* Use LSTM for long-term trend forecasting
 
 ---
 
 ## 📫 Feedback & Contributions
 
-Open issues or pull requests welcome!
-⭐ Star the repo if this project helped you.
+Have ideas or suggestions?
+Open an issue or submit a PR — contributions are welcome!
+
+⭐ **Star the repo** if this project helped you!
 
 ```
 
 ---
 
-### 🧠 Why This Is Better
+Let me know if you'd like me to generate:
+- `requirements.txt`
+- `Dockerfile`
+- `LICENSE`
+- `.dockerignore`
+- GitHub Action for CI
 
-| Enhancement | Reason |
-|-------------|--------|
-| **Consistent backend (FastAPI)** | Previously had a Flask/FastAPI conflict |
-| **Inline code, markdown formatting** | Better visual structure |
-| **Real services + ports listed clearly** | Easier for evaluators to run & verify |
-| **Future scope section** | Shows ambition without overpromising |
-| **Polished language** | More professional and presentation-ready |
-
----
-
-### ✅ Bonus Suggestions
-
-- Want a custom `LICENSE`, `requirements.txt`, or `.dockerignore`?
-- Want to add GitHub Actions CI/CD badge?
-- Want to auto-deploy to `Render`, `Railway`, or `Fly.io`?
-
-Let me know and I’ll generate them!
+Just say the word!
 ```
