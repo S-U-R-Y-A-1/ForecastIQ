@@ -1,8 +1,4 @@
-Here is the **properly formatted and polished `README.md`** with all markdown elements rendered cleanly:
 
----
-
-````markdown
 # 🧠 Intelligent Resource Monitoring System
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
