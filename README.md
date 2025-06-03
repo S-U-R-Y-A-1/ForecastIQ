@@ -1,5 +1,5 @@
 
-# 🧠 Intelligent Resource Monitoring System
+# 🧠 ForecastIQ - Intelligent Resource Monitoring System
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Angular](https://img.shields.io/badge/Angular-17-red.svg)](https://angular.io/)
