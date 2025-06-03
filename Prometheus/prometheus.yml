@@ -1,0 +1,20 @@
+global:
+  scrape_interval: 15s
+rule_files:
+  - 'alert.rules.yml'
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+  - job_name: 'flask-app'
+    static_configs:
+      - targets: ['flask-app:8000']
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['node-exporter:9100']
+  # For Windows, use 'localhost:8000' if running on the same machine
+        # If running on a different machine, replace 'localhost' with the actual IP address of the machine running the Flask app.
+        # For example, if your Flask app is running on a Linux machine with IP 192.168.1.X, use:
+        # targets: ['192.168.1.X:8000']
+      # For Linux, use your local IP (e.g., '192.168.1.X:8000')

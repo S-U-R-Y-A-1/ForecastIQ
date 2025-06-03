@@ -1,0 +1,8 @@
+groups:
+- name: alert.rules
+  rules:
+  - alert: HighCPU
+    expr: 100 - (avg by (instance)(rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100) > 80
+    for: 5m
+    labels:
+      severity: critical
