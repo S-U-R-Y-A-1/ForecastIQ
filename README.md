@@ -106,9 +106,15 @@ docker-compose up --build -d
 
 ## 📈 Sample Dashboard
 
+1. CPU Usage
+   
 ---![CPU Usage limit](https://github.com/user-attachments/assets/5eb315b5-523f-484e-85d6-6fbc80b03cbe)
 
+2. CPU, Memory, Network Stat
+
 ---![CPU, Memory, Network Stat](https://github.com/user-attachments/assets/a1af0d79-e3c0-4ecf-972a-bfb4bd45d351)
+
+3. Forecasted CPU Usage
 
 ---![Forecasted CPU Usage](https://github.com/user-attachments/assets/ca98245c-e78f-49db-aa92-f56c269abae8)
 
@@ -147,7 +153,7 @@ forecast = model.predict(future)
 
 ## 🙋‍♂️ Maintainer
 
-Developed by [Your Name](https://github.com/S-U-R-Y-A-1)
+Developed by [Surya](https://github.com/S-U-R-Y-A-1)
 Integrated MSc AIML @ Coimbatore Institute of Technology
 
 ---
