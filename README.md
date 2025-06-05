@@ -106,11 +106,11 @@ docker-compose up --build -d
 
 ## 📈 Sample Dashboard
 
-> *(Replace this with real screenshots after demo)*
+---![Screenshot 2025-06-03 183944](https://github.com/user-attachments/assets/a1af0d79-e3c0-4ecf-972a-bfb4bd45d351)
 
-![Dashboard Screenshot](https://i.imgur.com/JQ8wH7A.png)
+---![newplot](https://github.com/user-attachments/assets/ca98245c-e78f-49db-aa92-f56c269abae8)
 
----
+---![Screenshot 2025-06-03 183956](https://github.com/user-attachments/assets/5eb315b5-523f-484e-85d6-6fbc80b03cbe)
 
 ## ⚠️ Alerting Rules
 
@@ -141,17 +141,12 @@ forecast = model.predict(future)
 * Supports weekly and daily seasonality
 * Results are visualized via Angular charts
 
----
-
-## 📜 License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for full details.
 
 ---
 
 ## 🙋‍♂️ Maintainer
 
-Developed by [Your Name](https://github.com/yourusername)
+Developed by [Your Name](https://github.com/S-U-R-Y-A-1)
 Integrated MSc AIML @ Coimbatore Institute of Technology
 
 ---
@@ -173,14 +168,5 @@ Open an issue or submit a PR — contributions are welcome!
 
 ```
 
----
 
-Let me know if you'd like me to generate:
-- `requirements.txt`
-- `Dockerfile`
-- `LICENSE`
-- `.dockerignore`
-- GitHub Action for CI
-
-Just say the word!
 ```
