@@ -106,11 +106,12 @@ docker-compose up --build -d
 
 ## 📈 Sample Dashboard
 
----![Screenshot 2025-06-03 183944](https://github.com/user-attachments/assets/a1af0d79-e3c0-4ecf-972a-bfb4bd45d351)
+---![CPU Usage limit](https://github.com/user-attachments/assets/5eb315b5-523f-484e-85d6-6fbc80b03cbe)
 
----![newplot](https://github.com/user-attachments/assets/ca98245c-e78f-49db-aa92-f56c269abae8)
+---![CPU, Memory, Network Stat](https://github.com/user-attachments/assets/a1af0d79-e3c0-4ecf-972a-bfb4bd45d351)
 
----![Screenshot 2025-06-03 183956](https://github.com/user-attachments/assets/5eb315b5-523f-484e-85d6-6fbc80b03cbe)
+---![Forecasted CPU Usage](https://github.com/user-attachments/assets/ca98245c-e78f-49db-aa92-f56c269abae8)
+
 
 ## ⚠️ Alerting Rules
 
@@ -168,5 +169,3 @@ Open an issue or submit a PR — contributions are welcome!
 
 ```
 
-
-```
