@@ -68,14 +68,14 @@ docker-compose up --build -d
    Collect historical resource usage data:
 
    ```bash
-   python scripts/export_metrics.py
+   python python/backend.py
    ```
 
 2. **Train Forecasting Model**
    Build and save Prophet model:
 
    ```bash
-   python scripts/train_model.py
+   python python/prometheus.py
    ```
 
 3. **Serve Frontend** (if not using Docker):
@@ -93,12 +93,13 @@ docker-compose up --build -d
 ```
 .
 ├── angular-frontend/         # Angular UI app
-├── fastapi-backend/          # FastAPI API with ML logic
-├── prometheus/               # Prometheus config + alert rules
-├── scripts/                  # ML scripts
-│   ├── export_metrics.py
-│   └── train_model.py
-├── docker-compose.yml
+├── python/          # FastAPI API with ML logic
+├── prometheus/
+│   └── alert-rules.yml
+|   └── prometheus.yml          # Prometheus config + alert rules
+├── docker/                  # ML scripts
+│   ├── DockerFile
+│   └── docker-compose.yml
 └── README.md
 ```
 
@@ -172,6 +173,4 @@ Have ideas or suggestions?
 Open an issue or submit a PR — contributions are welcome!
 
 ⭐ **Star the repo** if this project helped you!
-
-```
 
