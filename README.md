@@ -5,7 +5,6 @@
 [![Angular](https://img.shields.io/badge/Angular-17-red.svg)](https://angular.io/)
 [![Prometheus](https://img.shields.io/badge/Prometheus-2.47-orange.svg)](https://prometheus.io/)
 [![Docker](https://img.shields.io/badge/Docker-20.10+-blue)](https://www.docker.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > ⚙️ A full-stack observability platform combining real-time monitoring with AI-powered forecasting for proactive IT resource optimization.
 
